@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    color: rgb(95, 97, 97);
+
+}
+
+i::before{
+    margin-right: 10px;
+}
+
+#photo .image {
+    height: 300px;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/bona/images/slider-1.jpg);
+    background-size: cover;
+}
+
+.nav-left {
+    margin-right: 27rem !important;
+}
+
+.container{
+    width: 1140px !important;
+    max-width: 100% !important;
+}
+
+.photo a {
+    background-color: white;
+    border-radius: 200px;
+    position: relative;
+    bottom: 30px;
+    left: 150px;
+}
+
+.photo a img{
+    width: 57.2px;
+    border-radius: 214px;
+    height: 57.2px;
+}
+
+#card .items .top img{
+    width: 100%;
+}
+
+#card .items{
+    margin-top: 60px;
+}
+
+#card .items .bottom .word{
+    text-align: center;
+    padding: 20px 30px 30px;
+}
+
+#card .items .item1, .item2, .item3{
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+}
+
+#card .items .icons{
+    background-color: rgb(237,243,243);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#card .items .icons a{
+    line-height: 45px;
+}
+
